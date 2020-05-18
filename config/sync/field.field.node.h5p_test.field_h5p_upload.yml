@@ -1,0 +1,23 @@
+uuid: da89ec51-bd76-4864-bfe1-c72ed64f5885
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h5p_upload
+    - node.type.h5p_test
+  module:
+    - h5p
+id: node.h5p_test.field_h5p_upload
+field_name: field_h5p_upload
+entity_type: node
+bundle: h5p_test
+label: 'H5P upload'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    h5p_content_id: null
+default_value_callback: ''
+settings: {  }
+field_type: h5p

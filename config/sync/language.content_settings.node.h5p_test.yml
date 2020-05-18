@@ -1,0 +1,11 @@
+uuid: 72109224-f3fa-48da-bc9b-6fc479eb528f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.h5p_test
+id: node.h5p_test
+target_entity_type_id: node
+target_bundle: h5p_test
+default_langcode: site_default
+language_alterable: false

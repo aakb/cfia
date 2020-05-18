@@ -1,0 +1,23 @@
+uuid: 58460613-9830-46d8-949f-6432f64b6202
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h5p_editor
+    - node.type.h5p_test
+  module:
+    - h5p
+id: node.h5p_test.field_h5p_editor
+field_name: field_h5p_editor
+entity_type: node
+bundle: h5p_test
+label: 'H5P Editor'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    h5p_content_id: null
+default_value_callback: ''
+settings: {  }
+field_type: h5p

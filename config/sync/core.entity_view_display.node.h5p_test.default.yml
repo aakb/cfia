@@ -1,0 +1,37 @@
+uuid: 5cce084e-e34d-4302-b05b-e74580d48242
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.h5p_test.field_h5p_editor
+    - field.field.node.h5p_test.field_h5p_upload
+    - node.type.h5p_test
+  module:
+    - h5p
+    - user
+id: node.h5p_test.default
+targetEntityType: node
+bundle: h5p_test
+mode: default
+content:
+  field_h5p_editor:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: h5p_default
+    region: content
+  field_h5p_upload:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: h5p_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

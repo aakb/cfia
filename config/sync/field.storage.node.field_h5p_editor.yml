@@ -1,0 +1,19 @@
+uuid: abbea6ac-5f7c-474a-ac7a-44ab045e6f71
+langcode: en
+status: true
+dependencies:
+  module:
+    - h5p
+    - node
+id: node.field_h5p_editor
+field_name: field_h5p_editor
+entity_type: node
+type: h5p
+settings: {  }
+module: h5p
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
