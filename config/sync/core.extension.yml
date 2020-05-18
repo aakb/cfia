@@ -18,6 +18,8 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  h5p: 0
+  h5peditor: 0
   image: 0
   imce: 0
   instagram_block: 0
