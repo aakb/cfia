@@ -1,0 +1,27 @@
+# Edit or remove this file as needed.
+# Docs at https://github.com/drush-ops/drush/blob/master/examples/example.site.yml
+
+#prod:
+#  host: prod.domain.com
+#  user: www-admin
+#  root: /path/to/drupal
+#  uri: http://www.example.com
+#
+#stage:
+#  host: stage.domain.com
+#  user: www-admin
+#  root: /path/to/drupal
+#  uri: http://stage.example.com
+
+stg:
+  host: srvitkphp72stg.itkdev.dk
+  user: deploy
+  root: /data/www/cfia_srvitkphp72stg_itkdev_dk/htdocs/web
+  uri: https://cfia.srvitkphp72stg.itkdev.dk/
+
+prod:
+  host: dmzwebitk01.dmz.aarhuskommune.dk
+  user: deploy
+  root: /home/www/cfiaarhus_dk/htdocs/web
+  uri: https://cfiaarhus.dk/
+
